@@ -6,8 +6,8 @@ Created on Mon Sep 13 12:33:21 2021
 """
 
 '''
-Paper: Energy sufficiency, lowlands.
-User: School C
+Paper: Energy sufficiency (SDEWES 2022)
+User: School C - LOWLANDS
 '''
 
 from core import User, np
@@ -54,5 +54,5 @@ SC_Printer.windows([480,780],[0,0],0.35)
 SC_Stereo = SC.Appliance(SC,1,150,1,90,0.1,5, occasional_use = 0.33)
 SC_Stereo.windows([480,780],[0,0],0.35)
 
-SC_data = SC.Appliance(SC,1,420,1,60,0.1,5, occasional_use = 0.5)
+SC_data = SC.Appliance(SC,1,420,1,60,0.1,5, occasional_use = 0.33)
 SC_data.windows([480,780],[0,0],0.35)

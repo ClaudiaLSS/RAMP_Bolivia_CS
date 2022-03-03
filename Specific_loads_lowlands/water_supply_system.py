@@ -3,12 +3,11 @@
 Created on Wed Sep 15 09:08:08 2021
 
 @author: Clau
+
+Paper: Energy sufficiency (SDEWES LA 2022)
+User: Public lighting - LOWLANDS
 """
 
-'''
-Paper: Energy sufficiency, lowlands.
-User: Water supply system
-'''
 
 from core import User, np
 User_list = []

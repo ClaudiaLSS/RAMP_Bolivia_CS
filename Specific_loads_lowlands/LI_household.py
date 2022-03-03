@@ -6,15 +6,15 @@ Created on Mon Sep 13 09:59:29 2021
 """
 
 '''
-Paper: Energy sufficiency, lowlands.
-User: Low Income Household
+Paper: Energy sufficiency (SDEWES LA 2022)
+User: Low Income Household - LOWLANDS
 '''
 
 from core import User, np
 User_list = []
 
 #Defining users
-H1 = User("low income", 1) 
+H1 = User("low income household", 1) 
 User_list.append(H1)
     
 #Appliances

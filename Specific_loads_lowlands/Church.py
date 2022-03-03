@@ -9,22 +9,22 @@ from core import User, np
 User_list = []
 
 '''
-Paper: Energy sufficiency, lowlands.
-User: Church
+Paper: Energy sufficiency (SDEWES LA 2022)
+User: Church - LOWLANDS
 '''
 
 #Definig users
 
-Church = User("Church", 1)
-User_list.append(Church)
+CH = User("Church", 1)
+User_list.append(CH)
 
 #Church
 
-Ch_indoor_bulb = Church.Appliance(Church,10,26,1,210,0.2,60,'yes', flat = 'yes')
-Ch_indoor_bulb.windows([1200,1440],[0,0],0.1)
+CH_indoor_bulb = CH.Appliance(CH,10,26,1,210,0.2,60,'yes', flat = 'yes')
+CH_indoor_bulb.windows([1200,1440],[0,0],0.1)
 
-Ch_outdoor_bulb = Church.Appliance(Church,7,26,1,240,0.2,60, 'yes', flat = 'yes')
-Ch_outdoor_bulb.windows([1200,1440],[0,0],0.1)
+CH_outdoor_bulb = CH.Appliance(CH,7,26,1,240,0.2,60, 'yes', flat = 'yes')
+CH_outdoor_bulb.windows([1200,1440],[0,0],0.1)
 
-Ch_speaker = Church.Appliance(Church,1,100,1,240,0.2,60)
-Ch_speaker.windows([1200,1350],[0,0],0.1)
+CH_speaker = CH.Appliance(CH,1,100,1,120,0.2,60, occasional_use=0.5)
+CH_speaker.windows([1020,1260],[0,0],0.1)

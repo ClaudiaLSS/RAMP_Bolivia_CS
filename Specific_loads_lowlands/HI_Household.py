@@ -6,15 +6,15 @@ Created on Mon Sep 13 10:32:11 2021
 """
 
 '''
-Paper: Energy sufficiency, lowlands.
-User: High Income Household
+Paper: Energy sufficiency (SDEWES LA 2022)
+User: High Income Household - LOWLANDS
 '''
 
 from core import User, np
 User_list = []
 
 #Defining users
-H2 = User("high income", 1)
+H2 = User("high income household", 1)
 User_list.append(H2)
 
 #Appliances
@@ -48,8 +48,8 @@ H2_Freezer.cycle_behaviour([480,1200],[0,0],[0,479],[1201,1440])
 H2_Mixer = H2.Appliance(H2,1,50,3,30,0.1,1, occasional_use = 0.33)
 H2_Mixer.windows([420,450],[660,750],0.35,[1020,1170])
 
-H2_Fan = H2.Appliance(H2,1,171,1,220,0.27,60)
-H2_Fan.windows([720,1080],[0,0])
+H2_Fan = H2.Appliance(H2,1,17,1,220,0.27,60)
+H2_Fan.windows([720,1080],[0,0],0.35)
 
 H2_Laptop = H2.Appliance(H2,1,70,1,90,0.3,30)
-H2_Laptop.windows([960,1200],[0,0])
+H2_Laptop.windows([960,1200],[0,0],0.35)
