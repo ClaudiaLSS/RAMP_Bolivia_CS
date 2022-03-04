@@ -6,7 +6,7 @@ Created on Wed Sep 15 08:57:23 2021
 """
 
 '''
-Paper: Energy sufficiency, lowlands.
+Paper: Energy sufficiency (SDEWES LA 2022)
 User: Irrigation Water for lowlands agroproductive zone
 '''
 

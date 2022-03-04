@@ -6,8 +6,8 @@ Created on Mon Sep 13 13:44:54 2021
 """
 
 '''
-Paper: Energy sufficiency, lowlands.
-User: Entertainment Bussines
+Paper: Energy sufficiency (SDEWES LA 2022)
+User: Entertainment Bussines - LOWLANDS
 '''
 
 from core import User, np
@@ -30,10 +30,10 @@ EB_outdoor_bulb.windows([0,330],[1107,1440],0.35)
 EB_Stereo = EB.Appliance(EB,1,150,2,90,0.1,5, occasional_use = 0.33)
 EB_Stereo.windows([480,780],[0,0],0.35)
 
-EB_TV = EB.Appliance(EB,1,60,2,120,0.1,5, occasional_use = 0.5)
+EB_TV = EB.Appliance(EB,1,60,2,120,0.1,5, occasional_use = 0.33)
 EB_TV.windows([480,780],[840,1140],0.2)
     
-EB_PC = EB.Appliance(EB,1,50,2,210,0.1,10)
+EB_PC = EB.Appliance(EB,1,50,2,210,0.1,10, occasional_use = 0.33)
 EB_PC.windows([480,780],[840,1140],0.35)
 
 EB_freezer = EB.Appliance(EB,1,200,1,1440,0,30,'yes',3)

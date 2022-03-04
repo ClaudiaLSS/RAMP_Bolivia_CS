@@ -9,8 +9,8 @@ from core import User, np
 User_list = []
 
 '''
-Paper: Energy sufficiency, lowlands.
-User: Grocery Store
+Paper: Energy sufficiency (SDEWES LA 2022)
+User: Grocery Store - LOWLANDS
 '''
 #Definig users
 GS = User("Grocery Store 1", 1)

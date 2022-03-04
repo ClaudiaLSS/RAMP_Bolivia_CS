@@ -3,12 +3,10 @@
 Created on Mon Sep 13 13:28:41 2021
 
 @author: Clau
-"""
 
-'''
-Paper: Energy sufficiency, lowlands.
-User: Restaurant
-'''
+Paper: Energy sufficiency (SDEWES LA 2022).
+User: Restaurant - lOWLANDS
+"""
 
 from core import User, np
 User_list = []

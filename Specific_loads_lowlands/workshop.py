@@ -9,8 +9,8 @@ from core import User, np
 User_list = []
 
 '''
-Paper: Energy sufficiency, lowlands.
-User: Workshop
+Paper: Energy sufficiency (SDEWES LA 2022)
+User: Workshop - LOWLANDS
 '''
 
 #Definig users
@@ -23,10 +23,10 @@ User_list.append(WS)
 WS_indoor_bulb = WS.Appliance(WS,2,7,2,120,0.2,10)
 WS_indoor_bulb.windows([1107,1440],[0,30],0.35)
 
-WS_welding_machine = WS.Appliance(WS,1,5500,1,60,0.5,30,occasional_use = 0.3)
+WS_welding_machine = WS.Appliance(WS,1,5500,1,60,0.5,30, occasional_use = 0.3)
 WS_welding_machine.windows([0,1440],[0,0],0.35)
 
-WS_grinding_machine = WS.Appliance(WS,1,750,1,480,0.125,60)
+WS_grinding_machine = WS.Appliance(WS,1,750,1,480,0.2,60, occasional_use = 0.3)
 WS_grinding_machine.windows([0,1440],[0,0],0.35)
 
 WS_Radio = WS.Appliance(WS,1,36,2,60,0.1,5)
