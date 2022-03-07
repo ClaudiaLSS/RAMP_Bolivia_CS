@@ -15,7 +15,7 @@ User: Workshop - LOWLANDS
 
 #Definig users
 
-WS = User("Workshop", 2)
+WS = User("Workshop", 1)
 User_list.append(WS)
 
 #Appliances

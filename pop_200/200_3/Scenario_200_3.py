@@ -148,7 +148,7 @@ IW_water_pump.windows([420,720],[840,1020],0.35)
 
 #Definig users GROCERY STORE
 
-GS = User("Grocery Store 1", 3)
+GS = User("Grocery Store 1", 2)
 User_list.append(GS)
 
 #Appliances
@@ -170,7 +170,7 @@ GS_Radio.windows([390,450],[1140,1260],0.35)
 
 #Definig users RESTAURANT
 
-R = User("Restaurant", 3)
+R = User("Restaurant", 2)
 User_list.append(R)
 
 #Appliances

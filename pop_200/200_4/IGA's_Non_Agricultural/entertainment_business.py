@@ -15,7 +15,7 @@ User_list = []
 
 #Definig users
 
-EB = User("Entertainment Business", 2)
+EB = User("Entertainment Business", 1)
 User_list.append(EB)
 
 #Appliances

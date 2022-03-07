@@ -13,7 +13,7 @@ User_list = []
 
 #Definig users
 
-R = User("Restaurant", 3)
+R = User("Restaurant", 2)
 User_list.append(R)
 
 #Appliances

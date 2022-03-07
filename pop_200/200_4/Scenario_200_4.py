@@ -168,7 +168,7 @@ LAU_BT.windows([360,930],[1080,1440],0.35)
 
 #Definig users GROCERY STORE
 
-GS = User("Grocery Store 1", 3)
+GS = User("Grocery Store 1", 2)
 User_list.append(GS)
 
 #Appliances
@@ -190,7 +190,7 @@ GS_Radio.windows([390,450],[1140,1260],0.35)
 
 #Definig users RESTAURANT
 
-R = User("Restaurant", 3)
+R = User("Restaurant", 2)
 User_list.append(R)
 
 #Appliances
@@ -211,7 +211,7 @@ R_freezer.cycle_behaviour([480,1200],[0,0],[300,479],[0,0],[0,299],[1201,1440])
 
 #Definig users ENTERTAINMENT BUSINESS
 
-EB = User("Entertainment Business", 2)
+EB = User("Entertainment Business", 1)
 User_list.append(EB)
 
 #Appliances
@@ -242,7 +242,7 @@ EB_freezer.cycle_behaviour([480,1200],[0,0],[300,479],[0,0],[0,299],[1201,1440])
 
 #Definig users WORKSHOP
 
-WS = User("Workshop", 2)
+WS = User("Workshop", 1)
 User_list.append(WS)
 
 #Appliances

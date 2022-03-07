@@ -13,7 +13,7 @@ Paper: Energy sufficiency (SDEWES LA 2022)
 User: Grocery Store - LOWLANDS
 '''
 #Definig users
-GS = User("Grocery Store 1", 3)
+GS = User("Grocery Store 1", 2)
 User_list.append(GS)
 
 #Appliances
