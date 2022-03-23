@@ -51,8 +51,8 @@ HP_water_pump.windows([480,720],[0,0],0.35)
 
 HP_Freezer = HP.Appliance(HP,1,200,1,1440,0,30,'yes',3)
 HP_Freezer.windows([0,1440],[0,0])
-HP_Freezer.specific_cycle_1(200,20,5,10)
+HP_Freezer.specific_cycle_1(200,15,5,15)
 HP_Freezer.specific_cycle_2(200,15,5,15)
 HP_Freezer.specific_cycle_3(200,10,5,20)
-HP_Freezer.cycle_behaviour([0,0],[0,0],[480,1200],[0,0],[0,299],[1201,1440])
+HP_Freezer.cycle_behaviour([480,1200],[0,0],[300,479],[0,0],[0,299],[1201,1440])
 

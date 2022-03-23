@@ -37,10 +37,10 @@ SC_DVD.windows([480,780],[0,0],0.35)
 
 SC_Freezer = SC.Appliance(SC,1,200,1,1440,0,30,'yes',3)
 SC_Freezer.windows([0,1440],[0,0])
-SC_Freezer.specific_cycle_1(200,20,5,10)
+SC_Freezer.specific_cycle_1(200,15,5,15)
 SC_Freezer.specific_cycle_2(200,15,5,15)
 SC_Freezer.specific_cycle_3(200,10,5,20)
-SC_Freezer.cycle_behaviour([0,0],[0,0],[480,1200],[0,0],[0,299],[1201,1440])
+SC_Freezer.cycle_behaviour([480,1200],[0,0],[300,479],[0,0],[0,299],[1201,1440])
 
 SC_PC = SC.Appliance(SC,25,50,1,210,0.1,10)
 SC_PC.windows([480,780],[0,0],0.35)

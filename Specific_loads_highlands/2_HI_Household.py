@@ -38,10 +38,10 @@ H2_Phone_charger.windows([1110,1440],[0,30],0.35)
 
 H2_Freezer = H2.Appliance(H2,1,200,1,1440,0,30,'yes',3)
 H2_Freezer.windows([0,1440],[0,0])
-H2_Freezer.specific_cycle_1(200,20,5,10)
+H2_Freezer.specific_cycle_1(200,15,5,15)
 H2_Freezer.specific_cycle_2(200,15,5,15)
 H2_Freezer.specific_cycle_3(200,10,5,20)
-H2_Freezer.cycle_behaviour([0,0],[0,0],[480,1200],[0,0],[0,299],[1201,1440])
+H2_Freezer.cycle_behaviour([480,1200],[0,0],[300,479],[0,0],[0,299],[1201,1440])
 
 H2_Mixer = H2.Appliance(H2,1,50,3,30,0.1,1, occasional_use = 0.33)
 H2_Mixer.windows([420,450],[660,750],0.35,[1020,1170])
